@@ -24,7 +24,7 @@ import java.util.Scanner;
 
 public class Count {
     public static int countDigits(int n) {
-        int count++;
+        int count = 0;
         for(int i = 0; i < n; i++) {
             int digit = n % 10;
             count++;
